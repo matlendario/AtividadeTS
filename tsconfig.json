@@ -7,7 +7,12 @@
     "module": "commonjs",
     "target": "es2024",
     "strict": true,
-    "skipLibCheck": true,
-  }
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  },
   "include": ["src/**/*"]
 }
